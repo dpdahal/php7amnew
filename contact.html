@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<blockquote>
+    <h1>Student Record</h1>
+    <hr>
+    <form action="server.php" method="post">
+        <label for="na">Name</label> <br>
+        <input type="text" name="name" id="na">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        <label for="lang">Language</label>
+        <input type="checkbox" name="lang" value="nepali">Nepali
+        <input type="checkbox" name="lang" value="english">English
+        <input type="checkbox" name="lang" value="chinese">Chinese
+        <br>
+        <label for="country">Country</label> <br>
+        <select name="" id="country">
+            <option disabled selected>--select country--</option>
+            <option value="">Nepal</option>
+            <option value="">China</option>
+            <option value="">Us</option>
+            <option value="">
+
+            </option>
+            <optgroup label="nep">
+                <option value="sdfsf">Abc</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="dob">DOB</label><br>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <label for="image">Profile Picture</label><br>
+        <input type="file" id="image">
+        <br>
+        <label for="description">Description</label><br>
+        <textarea id="description" rows="7" cols="30" style="resize: none;"></textarea>
+
+
+        <br><br>
+        <button>Add</button>
+        <input type="reset" value="Clear">
+
+
+    </form>
+</blockquote>
+
+</body>
+</html>
